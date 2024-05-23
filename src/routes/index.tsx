@@ -4,6 +4,7 @@ import Onboarding from '../pages/Onboarding'
 import CreateAccount from '../pages/CreateAccount'
 import Login from '../pages/Login'
 import ResetPassword from '../pages/ResetPassword'
+import About from '../pages/About'
 
 const routes = [
     {
@@ -25,6 +26,10 @@ const routes = [
     {
         path: '/reset-password',
         element: <ResetPassword />,
+    },
+    {
+        path: '/about',
+        element: <About />,
     },
 ]
 

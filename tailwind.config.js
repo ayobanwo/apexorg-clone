@@ -6,12 +6,17 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                'darkBlue': '#11141a',
+                'blueZ': '#2E5BCC',
+                'blueX': '#336AEA',
+                'orange': '#FFA500',
+                'blueGray': '#ADD8E6',
+                'darkPurple': '#463c58',
+                'cyan': '#00FFFF',
+                
                 'darkGreen': '#152925',
-                'plainGreen': '#219653',
+                'plainGreen': '#2E5BCC',
                 'XGreen': '#219452',
                 'X2Green': '#626362',
-                'greenZ': '#2cb064',
                 'offWhite': '#fffffe',
                 'blueBlack': '#11141b',
                 'colorZ': '#13161d',

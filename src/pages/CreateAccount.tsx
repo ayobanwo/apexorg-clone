@@ -6,7 +6,7 @@ import { ArrowLeft, Message } from 'iconsax-react';
 const CreateAccount = () => {
     const navigate = useNavigate();
     return (
-        <div className="bg-darkBlue min-h-[100vh] p-8">
+        <div className="bg-blueX min-h-[100vh] p-8">
             <nav className="flex justify-between">
 
                 <ArrowLeft size="24" color="#fffffe" onClick={() => { navigate("/onboarding")}}/>
