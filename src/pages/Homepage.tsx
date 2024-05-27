@@ -4,6 +4,7 @@ import DownloadApp from '../components/DownloadApp'
 import poco from '../images/poco_large3052.png'
 import { Apple, GooglePlay, ArrowRight } from 'iconsax-react'
 import Footer from '../components/Footer'
+import { useNavigate } from 'react-router-dom';
 
 const Homepage = () => {
     return (
