@@ -5,6 +5,8 @@ import CreateAccount from '../pages/CreateAccount'
 import Login from '../pages/Login'
 import ResetPassword from '../pages/ResetPassword'
 import About from '../pages/About'
+import Dashboard from '../pages/Dashboard'
+import Wallet from '../pages/Wallet'
 
 const routes = [
     {
@@ -30,6 +32,14 @@ const routes = [
     {
         path: '/about',
         element: <About />,
+    },
+    {
+        path: '/dashboard',
+        element: <Dashboard /> ,
+    },
+    {
+        path: '/wallet',
+        element: <Wallet /> ,
     },
 ]
 
