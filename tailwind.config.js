@@ -12,6 +12,8 @@ module.exports = {
                 'blueGray': '#ADD8E6',
                 'darkPurple': '#463c58',
                 'cyan': '#00FFFF',
+                'darkGray': '#2E2E2E',
+                'purpleX': '#1D212C',
                 
                 'darkGreen': '#152925',
                 'plainGreen': '#2E5BCC',
@@ -20,7 +22,6 @@ module.exports = {
                 'offWhite': '#fffffe',
                 'blueBlack': '#11141b',
                 'colorZ': '#13161d',
-                'purpleX': '#1D212C',
             },
             fontFamily: {
               ubuntu: ['"Ubuntu Sans"', ...defaultTheme.fontFamily.sans]

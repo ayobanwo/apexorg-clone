@@ -7,6 +7,9 @@ import ResetPassword from '../pages/ResetPassword'
 import About from '../pages/About'
 import Dashboard from '../pages/Dashboard'
 import Wallet from '../pages/Wallet'
+import Ranking from '../pages/Ranking'
+import History from '../pages/History'
+import Account from '../pages/Account'
 
 const routes = [
     {
@@ -40,6 +43,18 @@ const routes = [
     {
         path: '/wallet',
         element: <Wallet /> ,
+    },
+    {
+        path: '/rank',
+        element: <Ranking /> ,
+    },
+    {
+        path: '/history',
+        element: <History /> ,
+    },
+    {
+        path: '/account',
+        element: <Account /> ,
     },
 ]
 

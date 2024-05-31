@@ -57,7 +57,7 @@ const UserDashboard = () => {
             <div className="mb-4">
                 <h4 className="text-blueGray text-sm">Special deals</h4>
                 <div className="flex gap-4 items-center my-5">
-                    <div className="flex flex-col px-5 py-6 bg-[#2E2E2E] w-full basis-1/2 rounded-lg gap-1">
+                    <div className="flex flex-col px-5 py-6 bg-darkGray w-full basis-1/2 rounded-lg gap-1">
                         <GrLineChart className="text-3xl" />
                         <span className="font-bold text-white text-md">High Rate Card</span>
                         <span className="text-xs">See which cards are high now</span>

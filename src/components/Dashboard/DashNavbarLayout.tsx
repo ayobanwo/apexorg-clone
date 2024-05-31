@@ -23,15 +23,15 @@ const DashNavbarLayout: React.FC<Prop> = ({children}) => {
                     <Wallet3 size="24" color="#ADD8E6"/>
                     <span className="text-xs" >Wallet</span>
                 </div>
-                <div className="flex flex-col gap-1 justify-center items-center cursor-pointer ">
+                <div className="flex flex-col gap-1 justify-center items-center cursor-pointer "  onClick={() => navigate('/rank')}>
                     <Rank size="24" color="#ADD8E6"/>
                     <span className="text-xs" >Rank</span>
                 </div>
-                <div className="flex flex-col gap-1 justify-center items-center cursor-pointer ">
+                <div className="flex flex-col gap-1 justify-center items-center cursor-pointer "  onClick={() => navigate('/history')}>
                     <Book size="24" color="#ADD8E6"/>
                     <span className="text-xs" >History</span>
                 </div>
-                <div className="flex flex-col gap-1 justify-center items-center cursor-pointer ">
+                <div className="flex flex-col gap-1 justify-center items-center cursor-pointer "  onClick={() => navigate('/account')}>
                     <User size="24" color="#ADD8E6"/>
                     <span className="text-xs" >Account</span>
                 </div>
