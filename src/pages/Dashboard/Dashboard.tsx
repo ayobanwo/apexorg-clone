@@ -1,6 +1,6 @@
 import React from 'react'
-import DashNavbarLayout from '../components/Dashboard/DashNavbarLayout'
-import UserDashboard from '../components/Dashboard/UserDashboard'
+import DashNavbarLayout from '../../components/Dashboard/DashNavbarLayout'
+import UserDashboard from '../../components/Dashboard/UserDashboard'
 
 
 

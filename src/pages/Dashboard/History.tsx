@@ -1,6 +1,6 @@
 import React from 'react'
-import DashNavbarLayout from '../components/Dashboard/DashNavbarLayout'
-import UserHistory from '../components/Dashboard/UserHistory'
+import DashNavbarLayout from '../../components/Dashboard/DashNavbarLayout'
+import UserHistory from '../../components/Dashboard/UserHistory'
 
 const History = () => {
     return (

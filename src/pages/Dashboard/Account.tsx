@@ -1,6 +1,6 @@
 import React from 'react'
-import DashNavbarLayout from '../components/Dashboard/DashNavbarLayout'
-import UserAccount from '../components/Dashboard/UserAccount'
+import DashNavbarLayout from '../../components/Dashboard/DashNavbarLayout'
+import UserAccount from '../../components/Dashboard/UserAccount'
 
 const Account = () => {
     return (

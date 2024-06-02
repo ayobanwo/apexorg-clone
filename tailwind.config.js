@@ -14,6 +14,7 @@ module.exports = {
                 'cyan': '#00FFFF',
                 'darkGray': '#2E2E2E',
                 'purpleX': '#1D212C',
+                'deepBlue': '#27355c',
                 
                 'darkGreen': '#152925',
                 'plainGreen': '#2E5BCC',

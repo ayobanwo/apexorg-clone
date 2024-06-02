@@ -5,11 +5,13 @@ import CreateAccount from '../pages/CreateAccount'
 import Login from '../pages/Login'
 import ResetPassword from '../pages/ResetPassword'
 import About from '../pages/About'
-import Dashboard from '../pages/Dashboard'
-import Wallet from '../pages/Wallet'
-import Ranking from '../pages/Ranking'
-import History from '../pages/History'
-import Account from '../pages/Account'
+import Dashboard from '../pages/Dashboard/Dashboard'
+import Wallet from '../pages/Dashboard/Wallet'
+import Ranking from '../pages/Dashboard/Ranking'
+import History from '../pages/Dashboard/History'
+import Account from '../pages/Dashboard/Account'
+import Referral from '../components/Dashboard/Account/Referral'
+import Security from '../components/Dashboard/Account/Security'
 
 const routes = [
     {
@@ -56,6 +58,15 @@ const routes = [
         path: '/account',
         element: <Account /> ,
     },
+    {
+        path: '/referral',
+        element: <Referral /> ,
+    },
+    {
+        path: '/security',
+        element: <Security /> ,
+    },
+
 ]
 
 export default routes
