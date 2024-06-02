@@ -1,8 +1,10 @@
 import React from 'react'
-import {ArrowRight2 } from 'iconsax-react'
+import {ArrowRight2, Lock1, Verify, Gift, InfoCircle, Messages2, Moon, LogoutCurve, Trash } from 'iconsax-react'
 import logo from '../../images/S2Nx.png'
+import { useNavigate } from 'react-router-dom'
 
 const UserAccount = () => {
+    const navigate = useNavigate();
     return (
         <div className='px-6 pt-6 pb-14 flex flex-col text-white'>
             <div className="flex justify-between mb-4">
@@ -28,6 +30,41 @@ const UserAccount = () => {
                 <div>
                     <ArrowRight2 size="16" color="#add8e6"/>
                 </div>
+            </div>
+            <div className="flex flex-col py-3">
+                <div className="flex gap-3 items-center border-b border-cyan/30 py-5" onClick={() => navigate('/')}>
+                    <Lock1 size="16" color="#ffff00"/>
+                    <span className="text-white font-semibold text-md">Security</span>
+                </div>
+                <div className="flex gap-3 items-center border-b border-cyan/30 py-5" onClick={() => navigate('/')}>
+                    <Verify size="16" color="#ffff00"/>
+                    <span className="text-white font-semibold text-md">Verification Center</span>
+                </div>
+                <div className="flex gap-3 items-center border-b border-cyan/30 py-5" onClick={() => navigate('/')}>
+                    <Gift size="16" color="#ffff00"/>
+                    <span className="text-white font-semibold text-md">Referral Program</span>
+                </div>
+                <div className="flex gap-3 items-center border-b border-cyan/30 py-5" onClick={() => navigate('/')}>
+                    <InfoCircle size="16" color="#ffff00"/>
+                    <span className="text-white font-semibold text-md">Term of Service</span>
+                </div>
+                <div className="flex gap-3 items-center border-b border-cyan/30 py-5" onClick={() => navigate('/')}>
+                    <Messages2 size="16" color="#ffff00"/>
+                    <span className="text-white font-semibold text-md">Customer Support</span>
+                </div>
+                <div className="flex gap-3 items-center border-b border-cyan/30 py-5" onClick={() => navigate('/')}>
+                    <Moon size="16" color="#ffff00"/>
+                    <span className="text-white font-semibold text-md">Dark Mode</span>
+                </div>
+                <div className="flex gap-3 items-center border-b border-cyan/30 py-5" onClick={() => navigate('/')}>
+                    <LogoutCurve size="16" color="#ff0000"/>
+                    <span className="text-white font-semibold text-md">Sign Out</span>
+                </div>
+                <div className="flex gap-3 items-center border-b border-cyan/30 py-5" onClick={() => navigate('/')}>
+                    <Trash size="16" color="#ff0000"/>
+                    <span className="text-white font-semibold text-md">Trash</span>
+                </div>
+                
             </div>
         </div>
     )
