@@ -12,6 +12,7 @@ import History from '../pages/Dashboard/History'
 import Account from '../pages/Dashboard/Account'
 import Referral from '../components/Dashboard/Account/Referral'
 import Security from '../components/Dashboard/Account/Security'
+import ProfileUpdate from '../pages/Dashboard/ProfileUpdate'
 
 const routes = [
     {
@@ -65,6 +66,10 @@ const routes = [
     {
         path: '/security',
         element: <Security /> ,
+    },
+    {
+        path: '/profile-update',
+        element: <ProfileUpdate /> ,
     },
 
 ]
