@@ -13,6 +13,7 @@ import Account from '../pages/Dashboard/Account'
 import Referral from '../components/Dashboard/Account/Referral'
 import Security from '../components/Dashboard/Account/Security'
 import ProfileUpdate from '../pages/Dashboard/ProfileUpdate'
+import Badges from '../components/Dashboard/Account/Badges'
 
 const routes = [
     {
@@ -70,6 +71,10 @@ const routes = [
     {
         path: '/profile-update',
         element: <ProfileUpdate /> ,
+    },
+    {
+        path: '/badges',
+        element: <Badges /> ,
     },
 
 ]

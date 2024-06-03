@@ -22,7 +22,7 @@ const UserAccount = () => {
                     <ArrowRight2 size="16" color="#add8e6"/>
                 </div>
             </div>
-            <div className="flex justify-between items-center px-4 py-3 bg-darkPurple my-5 rounded-md"> 
+            <div className="flex justify-between items-center px-4 py-3 bg-darkPurple my-5 rounded-md" onClick={() => navigate('/badges')}> 
                 <div className="flex gap-4">
                     <img src={logo} alt="" className="h-6" />
                     <span className="text-sm"> My Badges </span>
