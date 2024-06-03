@@ -48,7 +48,7 @@ const Homepage = () => {
                                 </div>
                         </div>
                     </div>
-                    <img src={poco} alt="" className="md:absolute md:-bottom-28 md:right-0 max-h-fit xl:right-24 lg:right-16 object-cover md:h-auto lg:h-auto xl:h-auto w-auto md:w-2/4 lg:w-2/5 xl:w-[40%] min-[1536px]:w-[38%] lg:-bottom-32 xl:-bottom-56 " />
+                   
                 </div>
 
             </div>

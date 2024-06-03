@@ -32,9 +32,7 @@ const DownloadApp = () => {
                         </button>
                     </div>
                 </div>
-                <div className="">
-                    <img src={poco} alt="" className="lg:absolute -mt-9 lg:bottom-0 max-h-72 lg:max-h-fit xl:right-16 lg:-mt-20 xl:-mt-24 lg:right-4 object-cover lg:object-cover lg:h-[29rem] xl:h-[37rem] w-auto"/>
-                </div>
+               
             </div>
 
             <div className="mt-9">
