@@ -16,11 +16,11 @@ const Security = () => {
                 </div>
             </div>
             <div className="flex flex-col py-3">
-                 <div className="flex gap-3 items-center border-b border-cyan/30 py-5 cursor-pointer" onClick={() => navigate('/')}>
+                 <div className="flex gap-3 items-center border-b border-cyan/30 py-5 cursor-pointer" onClick={() => navigate('/security/create-pin')}>
                     <Lock1 size="16" color="#ffff00"/>
                     <span className="text-white font-semibold text-md">Create transaction PIN</span>
                 </div>
-                 <div className="flex gap-3 items-center border-b border-cyan/30 py-5 cursor-pointer" onClick={() => navigate('/')}>
+                 <div className="flex gap-3 items-center border-b border-cyan/30 py-5 cursor-pointer" onClick={() => navigate('/security/change-password')}>
                     <PasswordCheck size="16" color="#ffff00"/>
                     <span className="text-white font-semibold text-md">Change Password</span>
                 </div>

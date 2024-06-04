@@ -14,6 +14,8 @@ import Referral from '../components/Dashboard/Account/Referral'
 import Security from '../components/Dashboard/Account/Security'
 import ProfileUpdate from '../pages/Dashboard/ProfileUpdate'
 import Badges from '../components/Dashboard/Account/Badges'
+import CreatePIN from '../components/Dashboard/Account/Security/CreatePIN'
+import ChangePassword from '../components/Dashboard/Account/Security/ChangePassword'
 
 const routes = [
     {
@@ -75,6 +77,14 @@ const routes = [
     {
         path: '/badges',
         element: <Badges /> ,
+    },
+    {
+        path: '/security/create-pin',
+        element: <CreatePIN /> ,
+    },
+    {
+        path: '/security/change-password',
+        element: <ChangePassword /> ,
     },
 
 ]

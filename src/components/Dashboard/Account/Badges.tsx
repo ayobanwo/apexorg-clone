@@ -44,7 +44,7 @@ const Badges = () => {
                 </div>
 
                 :
-                <div className=" grid grid-cols-4 justify-center items-center gap-6 flex-row mt-5">
+                <div className=" grid md:grid-cols-4 grid-cols-2 justify-center items-center gap-6 flex-row mt-5">
                     <div className="flex flex-col justify-center items-center gap-4 rounded-lg p-4 bg-deepBlue">
                         <div className="flex justify-center items-center px-14 py-8 rounded-lg bg-darkPurple">
                             <Lock1 size="32" color="#ffa500"/>
