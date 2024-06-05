@@ -17,3 +17,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.pincode-input-container{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 30px;
+}
